@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+}
+.home{
+    background-image: url("image/pexels-sora-shimazaki-5926397.jpg");
+height: 100vh;
+
+background-size: cover;
+background-position: center;
+}
+.logo{
+    display: flex;
+    gap: 5px;}
+    #icon{
+        margin-top: 3px;
+        font-size: 20px;
+        color: red;
+    }
+
+
+.header{
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+#one{
+    color: red;
+    font-weight: bolder;
+    
+}
+.menu{
+    display: flex;
+    gap: 20px;
+   
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+.menu a:hover{
+    color: aqua;
+    border-bottom: solid white 2px;
+    text-shadow: 2px 2px 4px red;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 300px;
+   align-items: center; 
+   }
+   .content1{
+    font-size: 50px;
+    text-align: center;
+    color: yellow;
+
+   }
+   .content2{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+   }
+   span{
+    color: aqua;
+    font-weight: bolder;
+   }
+   span:hover{
+    text-shadow: 2px 2px 3px rgb(240, 6, 6);
+    border-bottom: solid white 2px;
+   }
+   #click{
+    width: 100px;
+padding: 10px;
+background-color: red;
+border-radius: 20px;
+font-size: 20px;
+font-weight: bolder;
+   }
+   #click:hover{
+    box-shadow: 3px 3px 5px aqua;
+   }
+.about{
+
+    display: flex;
+    flex-direction:column;
+
+
+    color: black;
+    background-color: pink;
+ align-items: center;
+ padding: 20px;
+   }
+   .head2{
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+   }
+   .common{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+   }
+   .photo{
+    height: 300px;
+    width: 350px;
+    border-radius:50% 50%;
+    background-image: url(image/pexels-junior-teixeira-2047905.jpg);
+    background-size: cover;
+    background-position: center;
+
+   }
+   .aboutme{
+    margin-top: 50px;
+    text-align: center;
+    font-size: medium;
+
+   }
+   #skills{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/guys-browsing.jpg);
+    background-size: cover;
+background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:black;
+   }
+   .head3{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 100px;
+    }
+    li{
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+    }
+    .logo3,.sname{
+        font-size: 20px;
+        font-weight:bolder;
+    }
+    .point{
+        margin-top: 4px;
+        height: 5px;
+        width: 5px;
+        border-radius: 50% 50%;
+        background-color: aqua;
+ padding: 3px;
+ align-content: center;
+
+    }
+    .container3{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+       padding: 20px;
+    }
+    li:hover{
+        color:aqua;
+        border-bottom: 2px solid white;
+        text-shadow: 2px 2px 3px red;
+    }
+    #project{
+        width: 100%;
+        height: 100vh;
+        background-color:aqua;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .head4{
+        font-size: 40px;
+        font-weight: bolder;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        }
+    #contact{
+        width: 100%;
+        height: 100vh;
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .up{
+        margin-top: 100px;
+        font-size: 60px;
+        font-weight: bolder;
+    }
+    .head5{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    }
+    h3{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+   
+    .detials{
+       height: 70vh;
+        width: 80%;
+        background: rgb(24, 135, 209); 
+         border-radius: 50px;
+        
+    }
+    .loc{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+       
+    }
+    .ad{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        padding: 20px;
+        font-weight: bolder;
+        color: red;
+
+    }
+    .dc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    button{
+        margin-top: 10px;
+        width: 150px;
+        padding: 10px;
+        background-color: red;
+        border-radius: 20px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+
+
+@media screen and (max-width:600px) {
+
+.icon{
+    display: block;
+}
+.header{
+    padding: 10px;
+}
+#one{
+    font-size: 20px;
+}
+.menu{
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+.menu a{
+    font-size: 16px;
+}
+.content1{
+    font-size: 27px;
+
+}
+.content2{
+    font-size: smaller;
+}
+.photo{
+    height: 250px;
+    width: 250px;
+    border-radius:50% 50%;
+    background-image: url(image/pexels-junior-teixeira-2047905.jpg);
+    background-size: cover;
+    background-position: center;
+   }
+   .detials{
+    height: 63vh;
+     width: 95%;
+     background: rgb(24, 135, 209); 
+      border-radius: 50px;
+      
+ }
+ 
+ .loc{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+   
+}
+.ad{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    padding: 10px;
+    font-weight: bolder;
+    color: red;
+
+}
+h3{
+    margin-top: 10px;
+}
+.dc{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
